@@ -16,16 +16,23 @@ body {
     color: black;
 }
 
+/*-------- logo ---------*/
+#logo {
+    width: 7em;
+    padding: 4em 1em 1em 9em;
+    margin: auto;
+    max-width: 98%;
+    float: left;
+}
 
 /*------------------ nav -------------------------*/
 
+
 nav {
-    padding: 1em;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    margin-bottom: 2em;
+    padding: 7.5em 10em 1em 3em;
     margin: auto;
-    max-width: 90%;
+    max-width: 98%;
+    float: right;
 }
 
 nav ul {
@@ -39,11 +46,6 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 30px;
-    color: grey;
-}
-
-nav a:hover {
-    border-bottom: none;
 }
 
 a {
@@ -53,26 +55,25 @@ a {
 }
 
 a:hover {
-    color: black;
-    text-decoration: 1px dotted;
+    color: white;
 }
+
 
 
 /*------------------- typography ------------------------*/
 
 header,
 img img {
-    display: block;
-    max-width: 45%;
-    display: block;
-    margin: 0 auto;
+    display: inline;
+    margin: auto;
     padding: 3em;
+    float: left;
 }
 
 p {
     font-size: 2em;
     line-height: 1.65em;
-    max-width: 70%;
+    max-width: 100%;
     text-align: left;
     margin: auto;
     position: relative;
@@ -106,65 +107,12 @@ h2 {
     padding: 1.5em 0em 1.5em 0em;
 }
 
-.img1 {
-    display: block;
-    margin: auto;
-    padding: 1em;
-    max-width: 60%;
-}
-
 .p2 {
     background-color: ghostwhite;
     max-width: 100%;
     padding: 1.5em 0em 1.5em 0em;
 }
 
-.p3 {
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
-
-.img2 {
-    display: block;
-    margin: auto;
-    padding: 1em;
-    max-width: 60%;
-}
-
-.p4 {
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
-
-
-}
-.p5 {
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
-.p6 {
-    background-color: ghostwhite;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
-.p7 {
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 2.5em 0em 1.5em 0em;
-}
-.p8 {
-    background-color: lightgray;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
-.p9 {
-    background-color: ghostwhite;
-    max-width: 100%;
-    padding: 1.5em 0em 1.5em 0em;
-}
 footer {
     font-size: 2em;
     color: black;
@@ -178,12 +126,7 @@ li {
 }
 
 /*-------------- Gallery -------------------*/
-.img4 {
-    display: inline;
-    margin: auto;
-    padding: 1em 1em 3em 5em;
-    max-width: 100%;
-}
+
 h4 {
     margin: 40px 0;
     font-size: 2em;
